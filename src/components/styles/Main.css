@@ -4,7 +4,7 @@
     flex-direction: column;
     padding: 80px 12%;
     margin-top: 60px;
-    background-color: #333646;
+    background-color: #252734;
 }
 .main > p {
     font-size: .7rem;
@@ -38,10 +38,22 @@
     transform: translateY(-5px);
 }
 
+@media (max-width: 1040px) {
+    .main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .main > p {
+        font-size: .8rem;
+        margin: 25px 0;
+    }
+}
+
 @media (max-width: 768px) {
     .main {
         padding-left: 5%;
         padding-right: 5%;
+        padding-bottom: 0;
     }
     .main > .main__based {
         width: 65%;

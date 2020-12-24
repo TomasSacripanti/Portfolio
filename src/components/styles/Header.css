@@ -33,8 +33,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 .navigation-link {
+    height: 50%;
     color:#dddddd;
     font-size: .6rem;
     transition: .3s;
@@ -79,10 +81,8 @@
     .header {
         padding: 10px 5% 0 5%;
     }
-}
-
-@media (max-width: 600px) {
     .navigation {
+        visibility: hidden;
         width: 100%;
         height: 100vh;
         display: flex;
@@ -95,16 +95,24 @@
         left: 0;
         background-color: #333646;
         margin: 0;
-        -webkit-clip-path: circle(100px at 90% -10%);
-        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path: circle(100px at 110% -10%);
+        clip-path: circle(100px at 110% -10%);
         transition: all 1.5s ease-in-out;
     }
     .navigation.visible {
-        -webkit-clip-path: circle(1000px at 90% -10%);
-        clip-path: circle(1000px at 90% -10%);
+        visibility: visible;
+        -webkit-clip-path: circle(1200px at 110% -10%);
+        clip-path: circle(1200px at 110% -10%);
+    }
+    .navigation-item {
+        height: 40px;
     }
     .navigation-link {
         font-size: 1.1rem;
+        height: 100%;
+    }
+    .navigation-link::after {
+        height: 1px;
     }
     .hamburguer {
         width: 50px;

@@ -12,8 +12,8 @@ export class About extends Component {
             <div className="about__line"></div>
           </div>
           <p>
-            Hello! I'm <span>Tomás Sacripanti</span>, a frontend developer based in Rosario,
-            <span>Argentina</span>.
+            Hello! I'm <span>Tomás Sacripanti</span>, a frontend developer based in Rosario, 
+            <span> Argentina</span>.
           </p>
           <p>
             I enjoy creating amazing stuff that lives on the internet. My goal
@@ -36,7 +36,7 @@ export class About extends Component {
               <li>
                 <i class="fas fa-caret-right"></i>
                 <a href="#" className="about__link">
-                  Javascript (ES6+)
+                  Javascript(ES6)
                 </a>
               </li>
               <li>
@@ -50,7 +50,7 @@ export class About extends Component {
               <li>
                 <i class="fas fa-caret-right"></i>
                 <a href="#" className="about__link">
-                  NPM
+                  NodeJS (Express)
                 </a>
               </li>
               <li>
@@ -62,7 +62,7 @@ export class About extends Component {
               <li>
                 <i class="fas fa-caret-right"></i>
                 <a href="#" className="about__link">
-                  NodeJS (Express)
+                NPM
                 </a>
               </li>
             </ul>

@@ -69,7 +69,7 @@ export class Header extends Component {
         </figure>
         <ul ref={this.navigation} className="navigation">
           <li className="navigation-item">
-            <a className="navigation-link" href="#aboutme">
+            <a className="navigation-link" href="#about">
               About me
             </a>
           </li>
