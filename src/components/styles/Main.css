@@ -40,12 +40,13 @@
 
 @media (max-width: 1040px) {
     .main {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     .main > p {
         font-size: .7rem;
         margin: 25px 0;
+        width: 75%;
     }
 }
 
@@ -72,3 +73,9 @@
     }
 }
 
+
+@media (max-width: 420px) {
+    .main > p {
+        margin: 15px 0; 
+    }
+}

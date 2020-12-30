@@ -38,7 +38,7 @@
 .navigation-link {
     height: 50%;
     color:#dddddd;
-    font-size: .6rem;
+    font-size: .55rem;
     transition: .3s;
 }
 .navigation-link::after {
@@ -67,7 +67,7 @@
         width: 45%;
     }
     .navigation-link {
-        font-size: .7rem;
+        font-size: .6rem;
     }
 }
 
