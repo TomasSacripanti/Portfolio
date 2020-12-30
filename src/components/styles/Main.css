@@ -2,7 +2,7 @@
     height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
-    padding: 80px 12%;
+    padding: 45px 12%;
     margin-top: 60px;
     background-color: #252734;
 }
@@ -29,7 +29,7 @@
     background-color: transparent;
     color: #1A9ED8;
     padding: 15px 30px;
-    margin-top: 40px;
+    margin-top: 25px;
     transition: .5s all;
 }
 .main__button:hover {
