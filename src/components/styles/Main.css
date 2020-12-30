@@ -7,7 +7,7 @@
     background-color: #252734;
 }
 .main > p {
-    font-size: .7rem;
+    font-size: .6rem;
     margin: 15px 0;
     color: #bbbbbb;
     width: 50%;
@@ -16,13 +16,13 @@
 .main > h1 {
     margin: 5px 0;
     color: white;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 .main > .main__name {
     color: #1A9ED8;
 }
 .main__button {
-    font-size: .7rem;
+    font-size: .6rem;
     width: fit-content;
     border: 1px solid #1A9ED8;
     border-radius: 5px;
@@ -44,7 +44,7 @@
         padding-bottom: 50px;
     }
     .main > p {
-        font-size: .8rem;
+        font-size: .7rem;
         margin: 25px 0;
     }
 }
