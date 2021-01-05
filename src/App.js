@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import Header from './components/Header';
-import Main from './components/Main';
-import About from './components/About';
-import Skills from './components/Projects';
-import Lines from './components/Lines';
+import Homepage from './pages/Homepage';
+// import Blog from './pages/Blog';
+
 
 export class App extends Component {
   render() {
     return (
-      <>
-        <Lines></Lines>
+      <Router>
         <Header></Header>
-        <Main></Main>
-        <About></About>
-        <Skills></Skills>
-      </>
+        <Switch>
+          <Route exact path="/" component={Homepage}></Route>
+          {/* <Route exact path="/blog" component={Blog}></Route> */}
+        </Switch>
+      </Router>
     )
   }
 }

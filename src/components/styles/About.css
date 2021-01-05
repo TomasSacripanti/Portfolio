@@ -32,11 +32,11 @@
     color:  #1A9ED8;
 }
 
-.about__link {
+.about__list > li {
     color: #bbbbbb;
     font-size: .45rem;
 }
-.about__link:hover {
+.about__list > li:hover {
     color: white;
 }
 

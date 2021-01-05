@@ -28,49 +28,37 @@ export class About extends Component {
           <div className="about__skills">
             <ul className="about__list">
               <li>
-                <i class="fas fa-caret-right"></i>
-                <a href="#" className="about__link">
-                  HTML &amp; (S)CSS
-                </a>
+                <i className="fas fa-caret-right"></i>
+                HTML &amp; (S)CSS
               </li>
               <li>
-                <i class="fas fa-caret-right"></i>
-                <a href="#" className="about__link">
-                  Javascript(ES6)
-                </a>
+                <i className="fas fa-caret-right"></i>
+                Javascript(ES6)
               </li>
               <li>
-                <i class="fas fa-caret-right"></i>
-                <a href="#" className="about__link">
-                  React
-                </a>
+                <i className="fas fa-caret-right"></i>
+                React
               </li>
             </ul>
             <ul className="about__list">
               <li>
-                <i class="fas fa-caret-right"></i>
-                <a href="#" className="about__link">
-                  NodeJS (Express)
-                </a>
+                <i className="fas fa-caret-right"></i>
+                NodeJS (Express)
               </li>
               <li>
-                <i class="fas fa-caret-right"></i>
-                <a href="#" className="about__link">
-                  Git &amp; GitHub
-                </a>
+                <i className="fas fa-caret-right"></i>
+                Git &amp; GitHub
               </li>
               <li>
-                <i class="fas fa-caret-right"></i>
-                <a href="#" className="about__link">
+                <i className="fas fa-caret-right"></i>
                 NPM
-                </a>
               </li>
             </ul>
           </div>
         </div>
         <div className="about__image">
           <div>
-            <img src={portfolioPhoto} alt="Personal Image Photo" />
+            <img src={portfolioPhoto} alt="Personal" />
           </div>
         </div>
       </div>

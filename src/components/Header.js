@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./styles/Header.css";
 import logotipo from "../assets/images/stlogo.png";
+import { HashLink as Link } from "react-router-hash-link";
 
 export class Header extends Component {
   constructor(props) {
@@ -16,7 +17,6 @@ export class Header extends Component {
     let currDirection = 0;
     let prevDirection = 0;
 
-    
     let toggled;
     let threshold = 200;
 
@@ -53,13 +53,13 @@ export class Header extends Component {
 
     const toggleNavigation = (e) => {
       e.preventDefault();
-      if(e.target.classList.contains("hamburguer")) {
+      if (e.target.classList.contains("hamburguer")) {
         let navigation = this.navigation.current;
-        navigation.classList.toggle('visible');
+        navigation.classList.toggle("visible");
       }
-    }
+    };
 
-    window.addEventListener('click', toggleNavigation);
+    window.addEventListener("click", toggleNavigation);
     window.addEventListener("scroll", checkScroll);
 
     return (
@@ -69,19 +69,24 @@ export class Header extends Component {
         </figure>
         <ul ref={this.navigation} className="navigation">
           <li className="navigation-item">
-            <a className="navigation-link" href="#about">
+            <Link
+              className="navigation-link"
+              to="#about"
+              ref={this.about}
+              onClick={this.scroll}
+            >
               About me
-            </a>
+            </Link>
           </li>
           <li className="navigation-item">
-            <a className="navigation-link" href="#projects">
+            <Link className="navigation-link" to="#projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="navigation-item">
-            <a className="navigation-link" href="#contact">
+            <Link className="navigation-link" to="#contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <button ref={this.hamburguer} className="hamburguer">
