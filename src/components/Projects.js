@@ -10,6 +10,9 @@ export class Projects extends Component {
                 <div className="project project__one">
                     <div className="project__image">
                         <img src={notesImg} alt="Notes App (MERN Stack)"/>
+                        <div className="project__overlay--one">
+                            <a href="www.google.com"></a>
+                        </div>
                     </div>
                     <div className="project__description">
                         <h4>Notes App</h4>
