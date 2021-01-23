@@ -1,136 +1,162 @@
 .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 60px 12%;
-    color: #bbbbbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 60px 12%;
+  color: #bbbbbb;
 }
 
 .projects__title {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .project__image {
-    width: 60%;
-    position: relative;
-    overflow: hidden;
-    border-radius: 5px;
+  width: 55%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .project__image:hover .project__overlay--one {
-    opacity: 0;
+  opacity: 0;
 }
 
 .project__image > img {
-    width: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .project__overlay--one {
-    width: 100%;
-    height: 100%;
-    background-color: #1a9fd8b4;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    opacity: 1;
-    transition: 1s ease-out;
+  width: 100%;
+  height: 100%;
+  background-color: #1a9fd8b4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 1;
+  transition: 1s ease-out;
 }
 
 .project__overlay--one > a {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .project {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .project__description {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    z-index: 20;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  z-index: 20;
+}
+
+.project__two,
+.project__four {
+  flex-direction: row-reverse;
+}
+
+.project__two > .project__description,
+.project__four > .project__description {
+  left: 0;
+  align-items: flex-start;
+}
+
+.project__two > .project__description > p,
+.project__four > .project__description > p {
+  text-align: start;
 }
 
 .project__description > h4 {
-    font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .project__description > p {
-    font-size: .6rem;
-    text-align: end;
-    background-color: #333646;
-    border-radius: 3px;
-    padding: 20px
+  font-size: 0.6rem;
+  text-align: end;
+  background-color: #333646;
+  border-radius: 3px;
+  padding: 20px;
 }
 
 .project__technologies {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .project__technologies > li {
-    font-size: .5rem;
+  font-size: 0.5rem;
 }
 
-
-
-
-
+@media screen and (max-width: 1040px) {
+  .project {
+    height: 350px;
+  }
+}
 
 @media screen and (max-width: 876px) {
-    .project__description > h4 {
-        margin: 25px 0;
-    }
-    .project__technologies {
-        margin: 20px 0;
-    }
+  .project {
+    height: 320px;
+  }
+  .project__description > h4 {
+    margin: 25px 0;
+  }
+  .project__technologies {
+    margin: 20px 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .project__description > h4 {
-        margin: 20px 0;
-    }
-    .project__description > p {
-        margin: 0;
-    }
-    .project__technologies {
-        margin: 15px 0;
-    }
+  .project__description > h4 {
+    margin: 20px 0;
+  }
+  .project__description > p {
+    margin: 0;
+  }
+  .project__technologies {
+    margin: 15px 0;
+  }
 }
 
 @media screen and (max-width: 640px) {
-    .project {
-        height: auto;
-        flex-direction:column-reverse;
-    }
-    .project__image {
-        width: 100%;
-    }
-    .project__description {
-        width: 80%;
-        position: initial;
-        align-items: center;
-        margin: 30px 0;
-    }
-    .project__description > p {
-        text-align: center;
-    }
-    .project__description > h4 {
-        margin: 10px 0;
-    }
+  .project {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .project__image {
+    width: 100%;
+  }
+  .project__description {
+    width: 80%;
+    position: initial;
+    align-items: center;
+    margin: 30px 0;
+  }
+  .project__description > p {
+    text-align: center;
+  }
+  .project__description > h4 {
+    margin: 10px 0;
+  }
+  .project__two > .project__description,
+  .project__four > .project__description {
+    left: 0;
+    align-items: center;
+  }
 }

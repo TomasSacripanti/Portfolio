@@ -8,22 +8,21 @@ export class About extends Component {
       <div id="about" className="about">
         <div className="about__text">
           <div>
-            <h3 className="about__title">About me</h3>
+            <h3 className="about__title">Sobre mí</h3>
             <div className="about__line"></div>
           </div>
           <p>
-            Hello! I'm <span>Tomás Sacripanti</span>, a frontend developer based in Rosario, 
+            Hola! Soy <span>Tomás Sacripanti</span>, un desarrollador Frontend viviendo en Rosario, 
             <span> Argentina</span>.
           </p>
           <p>
-            I enjoy creating amazing stuff that lives on the internet. My goal
-            is to always bring excellent products that provides pixel perfect
-            and performance experiences.
+            Disfruto creando cosas asombrosas que vivan en internet. Mi meta 
+            siempre es proveer excelentes productos digitales que cumplan y superen 
+            los estándares "pixel perfect" y generen experiencias sensacionales.
           </p>
           <p>
-            I'm currently studying a <span>Programming Technician</span> at the UTN
-            (Universidad Tecnológica Nacional) and i have experience working
-            with the following technologies:{" "}
+            Actualmente estoy estudiando una <span>Tecnicatura en Programación</span> en la UTN
+            (Universidad Tecnológica Nacional) y tengo experiencia trabajando con las siguientes Tecnologías:
           </p>
           <div className="about__skills">
             <ul className="about__list">
