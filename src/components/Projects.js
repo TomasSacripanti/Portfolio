@@ -41,7 +41,7 @@ export class Projects extends Component {
             </div>
           </div>
           <div className="project__description">
-            <h4>Cotizador de cryptomonedas</h4>
+            <h4>Cotizador crypto</h4>
             <p>
               Aplicación para cotizar diferentes cryptomonedas en tiempo real
               tomando como referencia distintas divisas.
