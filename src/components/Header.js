@@ -75,17 +75,17 @@ export class Header extends Component {
               ref={this.about}
               onClick={this.scroll}
             >
-              About me
+              Sobre mí
             </Link>
           </li>
           <li className="navigation-item">
             <Link className="navigation-link" to="#projects">
-              Projects
+              Proyectos
             </Link>
           </li>
           <li className="navigation-item">
             <Link className="navigation-link" to="#contact">
-              Contact
+              Contacto
             </Link>
           </li>
         </ul>
