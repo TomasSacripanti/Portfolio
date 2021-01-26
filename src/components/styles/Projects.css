@@ -3,13 +3,14 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 60px 12%;
+  padding: 25px 12%;
   color: #bbbbbb;
 }
 
 .projects__title {
   color: white;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .project__image {
@@ -160,6 +161,7 @@
   }
   .project__description > h4 {
     margin: 10px 0;
+    text-align: center;
   }
   .project__two > .project__description,
   .project__four > .project__description {
