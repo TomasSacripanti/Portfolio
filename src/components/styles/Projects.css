@@ -108,6 +108,9 @@
   .project {
     height: 350px;
   }
+  .project__technologies {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 876px) {
@@ -119,6 +122,7 @@
   }
   .project__technologies {
     margin: 20px 0;
+    width: 85%;
   }
 }
 
@@ -131,6 +135,9 @@
   }
   .project__technologies {
     margin: 15px 0;
+  }
+  .project__technologies > li {
+    font-size: 0.46rem;
   }
 }
 

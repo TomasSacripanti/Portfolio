@@ -44,7 +44,7 @@ export class Projects extends Component {
             <h4>Cotizador de cryptomonedas</h4>
             <p>
               Aplicación para cotizar diferentes cryptomonedas en tiempo real
-              tomando como referencia distintas.
+              tomando como referencia distintas divisas.
             </p>
             <ul className="project__technologies">
               <li>React.js</li>
@@ -86,9 +86,9 @@ export class Projects extends Component {
             <p>
               Calculadora exacta desarrollada con javascript vanilla.
             </p>
-            <ul className="project__technologies">
-              <li>HTML &amp; CSS </li>
-              <li>Bootstrap</li>
+            <ul className="project__technologies v2">
+              <li>HTML</li>
+              <li>CSS</li>
               <li>Javascript (ES6)</li>
             </ul>
             <div className="project__links"></div>
@@ -104,11 +104,11 @@ export class Projects extends Component {
           <div className="project__description">
             <h4>Cronómetro</h4>
             <p>
-                Cronómetro desarrollado con javascript vanilla.
+                Cronómetro/Temporizador desarrollado con javascript vanilla.
             </p>
-            <ul className="project__technologies">
-              <li>HTML &amp; CSS</li>
-              <li>Bootstrap</li>
+            <ul className="project__technologies v2">
+              <li>HTML</li>
+              <li>CSS</li>
               <li>Javascript (ES6)</li>
             </ul>
             <div className="project__links"></div>
