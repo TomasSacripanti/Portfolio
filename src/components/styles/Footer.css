@@ -1,4 +1,15 @@
 .footer {
-    height: 60px;
+    height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer > a > p {
+    font-size: .5rem;
+    color: #bbbbbb;
+    transition: .3s ease;
+}
+.footer > a > p:hover {
+    color: white;
 }
