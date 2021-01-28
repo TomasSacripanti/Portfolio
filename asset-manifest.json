@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.99b38912.chunk.css",
-    "main.js": "/static/js/main.e1aded0f.chunk.js",
-    "main.js.map": "/static/js/main.e1aded0f.chunk.js.map",
+    "main.css": "/static/css/main.2ddc3122.chunk.css",
+    "main.js": "/static/js/main.b3b438d5.chunk.js",
+    "main.js.map": "/static/js/main.b3b438d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.4b4226e2.chunk.js": "/static/js/2.4b4226e2.chunk.js",
     "static/js/2.4b4226e2.chunk.js.map": "/static/js/2.4b4226e2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.99b38912.chunk.css.map": "/static/css/main.99b38912.chunk.css.map",
+    "static/css/main.2ddc3122.chunk.css.map": "/static/css/main.2ddc3122.chunk.css.map",
     "static/js/2.4b4226e2.chunk.js.LICENSE.txt": "/static/js/2.4b4226e2.chunk.js.LICENSE.txt",
     "static/media/calculator.dac89b6a.png": "/static/media/calculator.dac89b6a.png",
     "static/media/crypto-cotizador.8699c865.png": "/static/media/crypto-cotizador.8699c865.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.4b4226e2.chunk.js",
-    "static/css/main.99b38912.chunk.css",
-    "static/js/main.e1aded0f.chunk.js"
+    "static/css/main.2ddc3122.chunk.css",
+    "static/js/main.b3b438d5.chunk.js"
   ]
 }
