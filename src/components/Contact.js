@@ -17,7 +17,7 @@ export class Contact extends Component {
           <div className="contact__info">
             <div className="contact__phone">
               <div className="contact__icon">
-                <i class="fas fa-phone-alt"></i>
+                <i className="fas fa-phone-alt"></i>
               </div>
               <div className="contact__text">
                 <h6>Teléfono</h6>
@@ -26,11 +26,11 @@ export class Contact extends Component {
             </div>
             <div className="contact__email">
               <div className="contact__icon">
-                <i class="far fa-envelope"></i>
+                <i className="far fa-envelope"></i>
               </div>
               <div className="contact__text">
                 <h6>Email</h6>
-                <p>03464-15-686477</p>
+                <p>sacripantitomas@gmail.com</p>
               </div>
             </div>
           </div>
