@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ddc3122.chunk.css",
-    "main.js": "/static/js/main.b3b438d5.chunk.js",
-    "main.js.map": "/static/js/main.b3b438d5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
-    "static/js/2.4b4226e2.chunk.js": "/static/js/2.4b4226e2.chunk.js",
-    "static/js/2.4b4226e2.chunk.js.map": "/static/js/2.4b4226e2.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.2ddc3122.chunk.css.map": "/static/css/main.2ddc3122.chunk.css.map",
-    "static/js/2.4b4226e2.chunk.js.LICENSE.txt": "/static/js/2.4b4226e2.chunk.js.LICENSE.txt",
-    "static/media/calculator.dac89b6a.png": "/static/media/calculator.dac89b6a.png",
-    "static/media/crypto-cotizador.8699c865.png": "/static/media/crypto-cotizador.8699c865.png",
-    "static/media/mern-notes.a4349357.png": "/static/media/mern-notes.a4349357.png",
-    "static/media/portfoliophoto.84ce3191.png": "/static/media/portfoliophoto.84ce3191.png",
-    "static/media/stopwatch.0fe73090.png": "/static/media/stopwatch.0fe73090.png",
-    "static/media/weather-app.79fffab2.png": "/static/media/weather-app.79fffab2.png"
+    "main.css": "/Portfolio/static/css/main.20ac94e9.chunk.css",
+    "main.js": "/Portfolio/static/js/main.61742319.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.61742319.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.75b916d2.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.75b916d2.js.map",
+    "static/js/2.5fc5546e.chunk.js": "/Portfolio/static/js/2.5fc5546e.chunk.js",
+    "static/js/2.5fc5546e.chunk.js.map": "/Portfolio/static/js/2.5fc5546e.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.20ac94e9.chunk.css.map": "/Portfolio/static/css/main.20ac94e9.chunk.css.map",
+    "static/js/2.5fc5546e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5fc5546e.chunk.js.LICENSE.txt",
+    "static/media/calculator.dac89b6a.png": "/Portfolio/static/media/calculator.dac89b6a.png",
+    "static/media/crypto-cotizador.8699c865.png": "/Portfolio/static/media/crypto-cotizador.8699c865.png",
+    "static/media/mern-notes.a4349357.png": "/Portfolio/static/media/mern-notes.a4349357.png",
+    "static/media/portfoliophoto.84ce3191.png": "/Portfolio/static/media/portfoliophoto.84ce3191.png",
+    "static/media/stopwatch.0fe73090.png": "/Portfolio/static/media/stopwatch.0fe73090.png",
+    "static/media/weather-app.79fffab2.png": "/Portfolio/static/media/weather-app.79fffab2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fd7dc15.js",
-    "static/js/2.4b4226e2.chunk.js",
-    "static/css/main.2ddc3122.chunk.css",
-    "static/js/main.b3b438d5.chunk.js"
+    "static/js/runtime-main.75b916d2.js",
+    "static/js/2.5fc5546e.chunk.js",
+    "static/css/main.20ac94e9.chunk.css",
+    "static/js/main.61742319.chunk.js"
   ]
 }
