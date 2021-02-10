@@ -72,8 +72,6 @@ export class Header extends Component {
             <Link
               className="navigation-link"
               to="#about"
-              ref={this.about}
-              onClick={this.scroll}
             >
               Sobre mí
             </Link>
