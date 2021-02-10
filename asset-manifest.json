@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.20ac94e9.chunk.css",
-    "main.js": "/Portfolio/static/js/main.61742319.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.61742319.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.cd6b96ca.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.cd6b96ca.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.75b916d2.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.75b916d2.js.map",
     "static/js/2.5fc5546e.chunk.js": "/Portfolio/static/js/2.5fc5546e.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.5fc5546e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.5fc5546e.chunk.js.LICENSE.txt",
     "static/media/calculator.dac89b6a.png": "/Portfolio/static/media/calculator.dac89b6a.png",
     "static/media/crypto-cotizador.8699c865.png": "/Portfolio/static/media/crypto-cotizador.8699c865.png",
-    "static/media/mern-notes.a4349357.png": "/Portfolio/static/media/mern-notes.a4349357.png",
+    "static/media/mern-notes.effe11dd.png": "/Portfolio/static/media/mern-notes.effe11dd.png",
     "static/media/portfoliophoto.84ce3191.png": "/Portfolio/static/media/portfoliophoto.84ce3191.png",
     "static/media/stopwatch.0fe73090.png": "/Portfolio/static/media/stopwatch.0fe73090.png",
     "static/media/weather-app.79fffab2.png": "/Portfolio/static/media/weather-app.79fffab2.png"
@@ -21,6 +21,6 @@
     "static/js/runtime-main.75b916d2.js",
     "static/js/2.5fc5546e.chunk.js",
     "static/css/main.20ac94e9.chunk.css",
-    "static/js/main.61742319.chunk.js"
+    "static/js/main.cd6b96ca.chunk.js"
   ]
 }
