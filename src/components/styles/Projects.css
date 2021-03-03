@@ -14,10 +14,11 @@
 }
 
 .project__image {
-  width: 55%;
+  width: 45%;
   position: relative;
   overflow: hidden;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .project__image:hover .project__overlay--one {
@@ -142,9 +143,6 @@
   .project__technologies > li {
     font-size: 0.46rem;
   }
-}
-
-@media screen and (max-width: 640px) {
   .project {
     height: auto;
     flex-direction: column-reverse;

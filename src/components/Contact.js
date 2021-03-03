@@ -7,11 +7,10 @@ export class Contact extends Component {
     return (
       <div id="contact" className="contact">
         <div className="contact__head">
-          <h3>Contáctame</h3>
+          <h3>Contact me</h3>
           <p>
-            Si tienes alguna duda pendiente o quisieras contactarme para algún
-            proyecto o trabajo, aquí debajo tienes mis datos y/o puedes mandarme
-            un mensaje.
+            If you want to contact me, here down below i left my contact data or just message 
+            me in the following form and i will email you back with a response.
           </p>
         </div>
         <div className="contact__body">
@@ -21,7 +20,7 @@ export class Contact extends Component {
                 <i className="fas fa-phone-alt"></i>
               </div>
               <div className="contact__text">
-                <h6>Teléfono</h6>
+                <h6>Phone</h6>
                 <p>03464-15-686477</p>
               </div>
             </div>

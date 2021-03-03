@@ -73,17 +73,17 @@ export class Header extends Component {
               className="navigation-link"
               to="#about"
             >
-              Sobre mí
+              About me
             </Link>
           </li>
           <li className="navigation-item">
             <Link className="navigation-link" to="#projects">
-              Proyectos
+              Projects
             </Link>
           </li>
           <li className="navigation-item">
             <Link className="navigation-link" to="#contact">
-              Contacto
+              Contact me
             </Link>
           </li>
         </ul>

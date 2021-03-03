@@ -6,7 +6,7 @@ export class Footer extends Component {
         return (
             <div className="footer">
                 <a href="https://github.com/TomasSacripanti">
-                    <p>Diseñado y Desarrollado por Tomás Sacripanti</p>
+                    <p>Designed and Developed by Tomás Sacripanti</p>
                 </a>
             </div>
         )

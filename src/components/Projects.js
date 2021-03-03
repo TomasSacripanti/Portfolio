@@ -5,24 +5,23 @@ import cryptoImg from "../assets/images/crypto-cotizador.png";
 import weatherApp from "../assets/images/weather-app.png";
 import calculator from "../assets/images/calculator.png";
 import stopwatch from "../assets/images/stopwatch.png";
+import { Link } from 'react-router-dom';
 
 export class Projects extends Component {
   render() {
     return (
       <div id="projects" className="projects">
-        <h3 className="projects__title">Projectos que he desarrollado</h3>
+        <h3 className="projects__title">Projects i've developed</h3>
         <div className="project project__one">
-          <div className="project__image">
+          <Link to="https://github.com/TomasSacripanti/Notes-MERN" className="project__image">
             <img src={notesImg} alt="Notes App (MERN Stack)" />
-            <div className="project__overlay--one">
-
-            </div>
-          </div>
+            <div className="project__overlay--one"></div>
+          </Link>
           <div className="project__description">
-            <h4>Aplicación de Notas</h4>
+            <h4>Notes Application</h4>
             <p>
-              Aplicación para guardar notas identificadas con su respectivo
-              usuario creada con el stack MERN.
+              MERN Stack Application that save notes 
+              identified with their respective user.
             </p>
             <ul className="project__technologies">
               <li>MongoDB</li>
@@ -36,15 +35,12 @@ export class Projects extends Component {
         <div className="project project__two">
           <div className="project__image">
             <img src={cryptoImg} alt="Cryptocurrencies Calculator" />
-            <div className="project__overlay--one">
-
-            </div>
+            <div className="project__overlay--one"></div>
           </div>
           <div className="project__description">
-            <h4>Cotizador crypto</h4>
+            <h4>Cryptocurrencies Calculator</h4>
             <p>
-              Aplicación para cotizar diferentes cryptomonedas en tiempo real
-              tomando como referencia distintas divisas.
+              Real time cryptocurrencies calculator taking as reference many differents currencies.
             </p>
             <ul className="project__technologies">
               <li>React.js</li>
@@ -57,14 +53,12 @@ export class Projects extends Component {
         <div className="project project__three">
           <div className="project__image">
             <img src={weatherApp} alt="Notes App (MERN Stack)" />
-            <div className="project__overlay--one">
-
-            </div>
+            <div className="project__overlay--one"></div>
           </div>
           <div className="project__description">
-            <h4>Aplicación del clima</h4>
+            <h4>Weather Application</h4>
             <p>
-              Aplicación que toma una ciudad y el código del respectivo país y devuelve el estado del clima de esa ubicación en tiempo real.
+              Real time Weather Application that takes a city and the country code as inputs.
             </p>
             <ul className="project__technologies">
               <li>React.js</li>
@@ -77,14 +71,12 @@ export class Projects extends Component {
         <div className="project project__four">
           <div className="project__image">
             <img src={calculator} alt="Notes App (MERN Stack)" />
-            <div className="project__overlay--one">
-
-            </div>
+            <div className="project__overlay--one"></div>
           </div>
           <div className="project__description">
-            <h4>Calculadora</h4>
+            <h4>Calculator</h4>
             <p>
-              Calculadora exacta desarrollada con javascript vanilla.
+              Exact calculator developed with vanilla javascript html and css.
             </p>
             <ul className="project__technologies v2">
               <li>HTML</li>
@@ -97,14 +89,12 @@ export class Projects extends Component {
         <div className="project project__five">
           <div className="project__image">
             <img src={stopwatch} alt="Notes App (MERN Stack)" />
-            <div className="project__overlay--one">
-
-            </div>
+            <div className="project__overlay--one"></div>
           </div>
           <div className="project__description">
-            <h4>Cronómetro</h4>
+            <h4>Stopwatch</h4>
             <p>
-                Cronómetro/Temporizador desarrollado con javascript vanilla.
+                Stopwatch developed with vanilla javascript html and css.
             </p>
             <ul className="project__technologies v2">
               <li>HTML</li>

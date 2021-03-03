@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./styles/Lines.css";
+import { Link } from 'react-router-dom';
 
 export class Lines extends Component {
   render() {
@@ -8,8 +9,8 @@ export class Lines extends Component {
         <div className="left">
           <ul className="left__social">
             <li className="left__item">
-              <a
-                href="https://github.com/TomasSacripanti"
+              <Link
+                to="https://github.com/TomasSacripanti"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="left__link"
@@ -19,13 +20,13 @@ export class Lines extends Component {
                 }}
               >
                 <i className="fab fa-github"></i>
-              </a>
+              </Link>
             </li>
             <li className="left__item">
-              <a
-                href="https://www.linkedin.com/in/tom%C3%A1s-sacripanti-37519a165/"
+              <Link
+                to="https://www.linkedin.com/in/tom%C3%A1s-sacripanti-37519a165/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="left__link"
                 onClick={() => {
                   window.location.href = "https://www.linkedin.com/in/tom%C3%A1s-sacripanti-37519a165/";
@@ -33,13 +34,13 @@ export class Lines extends Component {
                 }}
               >
                 <i className="fab fa-linkedin-in"></i>
-              </a>
+              </Link>
             </li>
             <li className="left__item">
-              <a
-                href="https://www.instagram.com/tomisacripanti/"
+              <Link
+                to="https://www.instagram.com/tomisacripanti/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="left__link"
                 onClick={() => {
                   window.location.href = "https://www.instagram.com/tomisacripanti/";
@@ -47,13 +48,13 @@ export class Lines extends Component {
                 }}
               >
                 <i className="fab fa-instagram"></i>
-              </a>
+              </Link>
             </li>
             <li className="left__item">
-              <a
-                href="https://twitter.com/TomasSacripanti"
+              <Link
+                to="https://twitter.com/TomasSacripanti"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="left__link"
                 onClick={() => {
                   window.location.href = "https://twitter.com/TomasSacripanti";
@@ -61,15 +62,15 @@ export class Lines extends Component {
                 }}
               >
                 <i className="fab fa-twitter"></i>
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="left__line"></div>
         </div>
         <div className="right">
-          <a className="right__email" href="mailto:sacripantitomas@gmail.com">
+          <Link className="right__email" to="mailto:sacripantitomas@gmail.com">
             sacripantitomas@gmail.com
-          </a>
+          </Link>
           <div className="right__line"></div>
         </div>
       </>

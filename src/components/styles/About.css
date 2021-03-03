@@ -27,7 +27,7 @@
     margin: 0 80px 0 0;
 }
 .about__list > li > svg {
-    transform: translate(-6px, 6px);
+    transform: translate(-6px, 0px);
     color:  #1A9ED8;
 }
 
