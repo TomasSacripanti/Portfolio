@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { HashLink as Link } from "react-router-hash-link";
 import "./styles/Lines.css";
 
 export class Lines extends Component {

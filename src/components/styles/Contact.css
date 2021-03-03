@@ -28,15 +28,13 @@
 .contact__body {
     width: 100%;
     display: flex;
+    justify-content: center;
     margin-top: 25px;
 }
 
-.contact__body > * {
+.contact__info {
     width: 50%;
     padding: 0 5%;
-}
-
-.contact__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,6 +81,7 @@
 
 
 .contact__form {
+    width: 40%;
     display: flex;
     flex-direction: column;
     background-color: #333646;
@@ -101,6 +100,7 @@
 .form-group {
     width: 100%;
     position: relative;
+    margin: 5px 0;
 }
 
 .form-group > input[type=text],
@@ -115,6 +115,7 @@
     font-family: 'Public Sans', sans-serif;
     border: none;
     border-bottom: 2px solid #252734;
+    border-radius: 3px;
     outline: none;
     resize: none;
 }
@@ -122,6 +123,7 @@
 .form-group > span {
     position: absolute;
     left: 0;
+    top: 2px;
     font-size: .5rem;
     padding: 5px 3px;
     margin: 10px 0;
@@ -130,12 +132,16 @@
     color: #bbbbbb;
 }
 
+.form-group > input:focus {
+    background-color: #333646;
+}
+
 .form-group > input:focus ~ span,
 .form-group > textarea:focus ~ span,
 .form-group > input:valid ~ span,
 .form-group > textarea:valid ~ span {
     color: #1A9ED8;
-    transform: translateY(-20px);
+    transform: translateY(-25px);
     font-size: .4rem;
 }
 

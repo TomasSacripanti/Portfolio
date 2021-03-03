@@ -46,11 +46,11 @@ export class About extends Component {
               </li>
               <li>
                 <i className="fas fa-caret-right"></i>
-                Git &amp; GitHub
+                MongoDB
               </li>
               <li>
                 <i className="fas fa-caret-right"></i>
-                NPM
+                Git &amp; GitHub
               </li>
             </ul>
           </div>

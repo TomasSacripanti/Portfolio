@@ -15,7 +15,7 @@ export class Projects extends Component {
           <div className="project__image">
             <img src={notesImg} alt="Notes App (MERN Stack)" />
             <div className="project__overlay--one">
-              <a href="www.google.com"></a>
+
             </div>
           </div>
           <div className="project__description">
@@ -37,7 +37,7 @@ export class Projects extends Component {
           <div className="project__image">
             <img src={cryptoImg} alt="Cryptocurrencies Calculator" />
             <div className="project__overlay--one">
-              <a href="www.google.com"></a>
+
             </div>
           </div>
           <div className="project__description">
@@ -58,7 +58,7 @@ export class Projects extends Component {
           <div className="project__image">
             <img src={weatherApp} alt="Notes App (MERN Stack)" />
             <div className="project__overlay--one">
-              <a href="www.google.com"></a>
+
             </div>
           </div>
           <div className="project__description">
@@ -78,7 +78,7 @@ export class Projects extends Component {
           <div className="project__image">
             <img src={calculator} alt="Notes App (MERN Stack)" />
             <div className="project__overlay--one">
-              <a href="www.google.com"></a>
+
             </div>
           </div>
           <div className="project__description">
@@ -98,7 +98,7 @@ export class Projects extends Component {
           <div className="project__image">
             <img src={stopwatch} alt="Notes App (MERN Stack)" />
             <div className="project__overlay--one">
-              <a href="www.google.com"></a>
+
             </div>
           </div>
           <div className="project__description">

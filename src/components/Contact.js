@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./styles/Contact.css";
+import MyForm from './MyForm.js';
 
 export class Contact extends Component {
   render() {
@@ -34,24 +35,7 @@ export class Contact extends Component {
               </div>
             </div>
           </div>
-          <form action="" className="contact__form">
-            <h5>Enviar mensaje</h5>
-            <div className="form-group">
-              <input type="text" required="required"/>
-              <span>Nombre</span>
-            </div>
-            <div className="form-group">
-              <input type="email" required="required"/>
-              <span>Email</span>
-            </div>
-            <div className="form-group">
-              <textarea name="mensaje" id="" cols="30" rows="2" required="required"></textarea>
-              <span>Escribe tu mensaje...</span>
-            </div>
-            <div className="form-group">
-              <input type="submit" value="Enviar"/>
-            </div>
-          </form>
+          <MyForm></MyForm>
         </div>
       </div>
     );
