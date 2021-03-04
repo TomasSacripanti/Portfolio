@@ -5,8 +5,8 @@ export class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <a href="https://github.com/TomasSacripanti">
-                    <p>Designed and Developed by Tomás Sacripanti</p>
+                <a href="https://github.com/TomasSacripanti/Portfolio">
+                    <p>React App designed and developed by Tomás Sacripanti</p>
                 </a>
             </div>
         )

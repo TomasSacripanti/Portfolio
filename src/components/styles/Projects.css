@@ -69,18 +69,21 @@
 }
 
 .project__two,
-.project__four {
+.project__four,
+.project__six {
   flex-direction: row-reverse;
 }
 
 .project__two > .project__description,
-.project__four > .project__description {
+.project__four > .project__description,
+.project__six > .project__description {
   left: 0;
   align-items: flex-start;
 }
 
 .project__two > .project__description > p,
-.project__four > .project__description > p {
+.project__four > .project__description > p,
+.project__six > .project__description > p {
   text-align: start;
 }
 
@@ -164,7 +167,8 @@
     text-align: center;
   }
   .project__two > .project__description,
-  .project__four > .project__description {
+  .project__four > .project__description,
+  .project__six > .project__description {
     left: 0;
     align-items: center;
   }
