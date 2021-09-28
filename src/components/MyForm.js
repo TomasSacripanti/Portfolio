@@ -13,10 +13,10 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <form className="contact__form" action="https://formspree.io/f/mpzogbaw" method="POST">
-        <h5>Enviar mensaje</h5>
+        <h5>Send Message</h5>
         <div className="form-group">
           <input type="text" name="name" required="required" />
-          <span>Nombre</span>
+          <span>Name</span>
         </div>
         <div className="form-group">
           <input type="email" name="email" required="required" />
@@ -30,7 +30,7 @@ export default class MyForm extends React.Component {
             rows="2"
             required="required"
           ></textarea>
-          <span>Escribe tu mensaje...</span>
+          <span>Write your message...</span>
         </div>
         <div className="form-group">
           <input type="submit" value="Enviar" onClick={this.submitForm} />
